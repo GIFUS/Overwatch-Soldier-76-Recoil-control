@@ -24,4 +24,4 @@ toggle_button: F5
 
 ### How to run?
 There is no point in explaining for knowledgeable people. 
-People who do not know how to use python can download the EXE file in the releases. https://github.com/GIFUS/Soldier-76-Recoil-control/releases
+People who do not know how to use python can download the EXE file in the releases. https://github.com/GIFUS/Overwatch-Soldier-76-Recoil-control
