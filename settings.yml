@@ -1,0 +1,13 @@
+# Set the horizontal limit: 5 means a maximum of 5 pixels to the left or to the right every shot
+horizontal_range: 2
+
+# Set the minimum and maximum amount of pixels to move the mouse every shot
+min_vertical: 5
+max_vertical: 5.1
+
+# Set the minimum and maximum amount of time in seconds to wait until moving the mouse again
+min_firerate: 0.03
+max_firerate: 0.04
+
+# Set the toggle button
+toggle_button: F5
