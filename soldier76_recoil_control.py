@@ -6,6 +6,8 @@ import keyboard
 import yaml
 from threading import Timer
 
+win32api.SetConsoleTitle('Soldier 76 | Recoil-Control')
+
 def config() :
     with open("settings.yml", 'r', encoding="utf8") as stream :
         try :
@@ -28,8 +30,18 @@ def config() :
 config()
 
 enabled = False
+banner = """
+<----------------------------------------------------------------->
+  ____                _ _        ____            _             _
+ |  _ \ ___  ___ ___ (_) |      / ___|___  _ __ | |_ _ __ ___ | |
+ | |_) / _ \/ __/ _ \| | |_____| |   / _ \| '_ \| __| '__/ _ \| |
+ |  _ <  __/ (_| (_) | | |_____| |__| (_) | | | | |_| | | (_) | |
+ |_| \_\___|\___\___/|_|_|      \____\___/|_| |_|\__|_|  \___/|_|
 
-print('<<---- Recoil-Control started! ---->> ')
+<----------------------------------------------------------------->
+"""
+# print('<<---- Recoil-Control started! ---->> ')
+print(banner)
 print('Press '+ toggle_button + ' to enable/disable\n')
 if enabled:
     print("Recoil-Control: ENABLED ", end="\r")
