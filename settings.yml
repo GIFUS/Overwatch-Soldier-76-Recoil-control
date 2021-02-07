@@ -1,3 +1,5 @@
+# Change the settings depending on your sensitivity!
+
 # Set the horizontal limit: 5 means a maximum of 5 pixels to the left or to the right every shot
 horizontal_range: 2
 
